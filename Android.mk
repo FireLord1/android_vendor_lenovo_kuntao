@@ -341,13 +341,4 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := qdcm_calib_data_mipi_mot_cmd_smd_1080p_549
-LOCAL_MODULE_OWNER := lenovo
-LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_mipi_mot_cmd_smd_1080p_549.xml
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_SUFFIX := .xml
-include $(BUILD_PREBUILT)
-
 endif

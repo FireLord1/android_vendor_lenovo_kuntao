@@ -934,5 +934,4 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qti-telephony-common \
     rcsimssettings \
-    tcmclient \
-    qdcm_calib_data_mipi_mot_cmd_smd_1080p_549
+    tcmclient
