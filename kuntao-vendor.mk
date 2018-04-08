@@ -21,136 +21,100 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/vfmAPITest:system/vendor/bin/vfmAPITest \
     vendor/lenovo/kuntao/proprietary/vendor/bin/vfmExTest:system/vendor/bin/vfmExTest \
     vendor/lenovo/kuntao/proprietary/vendor/bin/vfmService:system/vendor/bin/vfmService \
-    vendor/lenovo/kuntao/proprietary/etc/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
-    vendor/lenovo/kuntao/proprietary/etc/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP_NON_CE/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP_NON_CE/MTP_Bluetooth_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP_NON_CE/MTP_General_cal.acdb:system/etc/acdbdata/MTP_NON_CE/MTP_General_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP_NON_CE/MTP_Global_cal.acdb:system/etc/acdbdata/MTP_NON_CE/MTP_Global_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP_NON_CE/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP_NON_CE/MTP_Handset_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP_NON_CE/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP_NON_CE/MTP_Hdmi_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/MTP_NON_CE/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP_NON_CE/MTP_Headset_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/lenovo/kuntao/proprietary/etc/audio_platform_info.xml:system/etc/audio_platform_info.xml \
-    vendor/lenovo/kuntao/proprietary/etc/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
-    vendor/lenovo/kuntao/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
-    vendor/lenovo/kuntao/proprietary/etc/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
-    vendor/lenovo/kuntao/proprietary/etc/audio_policy_volumes.xml:system/etc/audio_policy_volumes.xml \
-    vendor/lenovo/kuntao/proprietary/etc/camera/imx258_kuntaoof_chromatix.xml:system/etc/camera/imx258_kuntaoof_chromatix.xml \
-    vendor/lenovo/kuntao/proprietary/etc/camera/imx258_kuntaosy_chromatix.xml:system/etc/camera/imx258_kuntaosy_chromatix.xml \
-    vendor/lenovo/kuntao/proprietary/etc/camera/lenovo_kuntao_camera.xml:system/etc/camera/lenovo_kuntao_camera.xml \
-    vendor/lenovo/kuntao/proprietary/etc/camera/ov5695_kuntaoof_chromatix.xml:system/etc/camera/ov5695_kuntaoof_chromatix.xml \
-    vendor/lenovo/kuntao/proprietary/etc/camera/ov5695_kuntaosy_chromatix.xml:system/etc/camera/ov5695_kuntaosy_chromatix.xml \
-    vendor/lenovo/kuntao/proprietary/etc/capability.xml:system/etc/capability.xml \
-    vendor/lenovo/kuntao/proprietary/etc/default_volume_tables.xml:system/etc/default_volume_tables.xml \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a506_zap.b00:system/etc/firmware/a506_zap.b00 \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a506_zap.b01:system/etc/firmware/a506_zap.b01 \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a506_zap.b02:system/etc/firmware/a506_zap.b02 \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a506_zap.elf:system/etc/firmware/a506_zap.elf \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a506_zap.mdt:system/etc/firmware/a506_zap.mdt \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/emmc_ffu_15_RX14MB.fw:system/etc/firmware/emmc_ffu_15_RX14MB.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/hbtp/hbtpcfg.dat:system/etc/firmware/hbtp/hbtpcfg.dat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/hbtp/qtc800s_dsp.bin:system/etc/firmware/hbtp/qtc800s_dsp.bin \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508-16060806-kuntao.tdat:system/etc/firmware/synaptics-s3508-16060806-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508-16062306-kuntao.tdat:system/etc/firmware/synaptics-s3508-16062306-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508-16071507-kuntao.tdat:system/etc/firmware/synaptics-s3508-16071507-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508-16080201-kuntao.tdat:system/etc/firmware/synaptics-s3508-16080201-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508-16081202-kuntao.tdat:system/etc/firmware/synaptics-s3508-16081202-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508-16082202-kuntao.tdat:system/etc/firmware/synaptics-s3508-16082202-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508sga-16060806-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16060806-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508sga-16062306-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16062306-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508sga-16071507-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16071507-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508sga-16080201-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16080201-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat \
-    vendor/lenovo/kuntao/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
-    vendor/lenovo/kuntao/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_qrd_sku3.xml:system/etc/mixer_paths_qrd_sku3.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_qrd_skuh.xml:system/etc/mixer_paths_qrd_skuh.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_qrd_skuhf.xml:system/etc/mixer_paths_qrd_skuhf.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_qrd_skui.xml:system/etc/mixer_paths_qrd_skui.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_qrd_skum.xml:system/etc/mixer_paths_qrd_skum.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_qrd_skun.xml:system/etc/mixer_paths_qrd_skun.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_skuk.xml:system/etc/mixer_paths_skuk.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_wcd9306.xml:system/etc/mixer_paths_wcd9306.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_wcd9326.xml:system/etc/mixer_paths_wcd9326.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_wcd9330.xml:system/etc/mixer_paths_wcd9330.xml \
-    vendor/lenovo/kuntao/proprietary/etc/mixer_paths_wcd9335.xml:system/etc/mixer_paths_wcd9335.xml \
-    vendor/lenovo/kuntao/proprietary/etc/nfc_wallet.conf:system/etc/nfc_wallet.conf \
-    vendor/lenovo/kuntao/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
-    vendor/lenovo/kuntao/proprietary/etc/nfcse.cfg:system/etc/nfcse.cfg \
-    vendor/lenovo/kuntao/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
-    vendor/lenovo/kuntao/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
-    vendor/lenovo/kuntao/proprietary/etc/sound_trigger_mixer_paths_wcd9306.xml:system/etc/sound_trigger_mixer_paths_wcd9306.xml \
-    vendor/lenovo/kuntao/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
-    vendor/lenovo/kuntao/proprietary/etc/sound_trigger_mixer_paths_wcd9335.xml:system/etc/sound_trigger_mixer_paths_wcd9335.xml \
-    vendor/lenovo/kuntao/proprietary/etc/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
-    vendor/lenovo/kuntao/proprietary/etc/speaker.ftcfg:system/etc/speaker.ftcfg \
-    vendor/lenovo/kuntao/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
-    vendor/lenovo/kuntao/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
-    vendor/lenovo/kuntao/proprietary/etc/wifi/fstman.ini:system/etc/wifi/fstman.ini \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/aanc_tuning_mixer.txt:system/vendor/etc/aanc_tuning_mixer.txt \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/audio_platform_info.xml:system/vendor/etc/audio_platform_info.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/audio_platform_info_extcodec.xml:system/vendor/etc/audio_platform_info_extcodec.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/audio_policy_configuration.xml:system/vendor/etc/audio_policy_configuration.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/camera/imx258_kuntaoof_chromatix.xml:system/vendor/etc/camera/imx258_kuntaoof_chromatix.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/camera/imx258_kuntaosy_chromatix.xml:system/vendor/etc/camera/imx258_kuntaosy_chromatix.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/camera/lenovo_kuntao_camera.xml:system/vendor/etc/camera/lenovo_kuntao_camera.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/camera/ov5695_kuntaoof_chromatix.xml:system/vendor/etc/camera/ov5695_kuntaoof_chromatix.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/camera/ov5695_kuntaosy_chromatix.xml:system/vendor/etc/camera/ov5695_kuntaosy_chromatix.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a225_pfp.fw:system/vendor/etc/firmware/a225_pfp.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a225_pm4.fw:system/vendor/etc/firmware/a225_pm4.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a225p5_pm4.fw:system/vendor/etc/firmware/a225p5_pm4.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a300_pfp.fw:system/vendor/etc/firmware/a300_pfp.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a300_pm4.fw:system/vendor/etc/firmware/a300_pm4.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a330_pfp.fw:system/vendor/etc/firmware/a330_pfp.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a330_pm4.fw:system/vendor/etc/firmware/a330_pm4.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a420_pfp.fw:system/vendor/etc/firmware/a420_pfp.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a420_pm4.fw:system/vendor/etc/firmware/a420_pm4.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a506_zap.b00:system/vendor/etc/firmware/a506_zap.b00 \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a506_zap.b01:system/vendor/etc/firmware/a506_zap.b01 \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a506_zap.b02:system/vendor/etc/firmware/a506_zap.b02 \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a506_zap.elf:system/vendor/etc/firmware/a506_zap.elf \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a506_zap.mdt:system/vendor/etc/firmware/a506_zap.mdt \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530_gpmu.fw2:system/vendor/etc/firmware/a530_gpmu.fw2 \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530_pfp.fw:system/vendor/etc/firmware/a530_pfp.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530_pm4.fw:system/vendor/etc/firmware/a530_pm4.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530v1_pfp.fw:system/vendor/etc/firmware/a530v1_pfp.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530v1_pm4.fw:system/vendor/etc/firmware/a530v1_pm4.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530v2_seq.fw2:system/vendor/etc/firmware/a530v2_seq.fw2 \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530v3_gpmu.fw2:system/vendor/etc/firmware/a530v3_gpmu.fw2 \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530v3_seq.fw2:system/vendor/etc/firmware/a530v3_seq.fw2 \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a540_gpmu.fw2:system/vendor/etc/firmware/a540_gpmu.fw2 \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_10_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_1.fw:system/vendor/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_6.fw:system/vendor/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_2_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_4_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_5_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_5_2.fw:system/vendor/etc/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_6_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_8_0.fw:system/vendor/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/emmc_ffu_15_RX14MB.fw:system/vendor/etc/firmware/emmc_ffu_15_RX14MB.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/hbtp/hbtpcfg.dat:system/vendor/etc/firmware/hbtp/hbtpcfg.dat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/hbtp/qtc800s_dsp.bin:system/vendor/etc/firmware/hbtp/qtc800s_dsp.bin \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/ice40.bin:system/vendor/etc/firmware/ice40.bin \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508-16060806-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508-16060806-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508-16062306-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508-16062306-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508-16071507-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508-16071507-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508-16080201-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508-16080201-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508-16081202-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508-16081202-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508-16082202-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508-16082202-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16060806-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508sga-16060806-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16062306-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508sga-16062306-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16071507-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508sga-16071507-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16080201-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508sga-16080201-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat:system/vendor/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/tas2555_uCDSP.bin:system/vendor/etc/firmware/tas2555_uCDSP.bin \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin:system/vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat:system/vendor/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/libnfc-brcm-20797b00.conf:system/vendor/etc/libnfc-brcm-20797b00.conf \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/libnfc-brcm.conf:system/vendor/etc/libnfc-brcm.conf \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/nfc_wallet.conf:system/vendor/etc/nfc_wallet.conf \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/nfcee_access.xml:system/vendor/etc/nfcee_access.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/nfcse.cfg:system/vendor/etc/nfcse.cfg \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/sound_trigger_mixer_paths.xml:system/vendor/etc/sound_trigger_mixer_paths.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/sound_trigger_platform_info.xml:system/vendor/etc/sound_trigger_platform_info.xml \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:system/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/wifi/fstman.ini:system/vendor/etc/wifi/fstman.ini \
     vendor/lenovo/kuntao/proprietary/vendor/lib/hw/audio.primary.msm8953.so:system/vendor/lib/hw/audio.primary.msm8953.so \
-    vendor/lenovo/kuntao/proprietary/lib/libTAS2555ftc.so:system/lib/libTAS2555ftc.so \
-    vendor/lenovo/kuntao/proprietary/lib/libsynaFpTestHal.so:system/lib/libsynaFpTestHal.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libsynaFpTestHal.so:system/vendor/lib/libsynaFpTestHal.so \
     vendor/lenovo/kuntao/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    vendor/lenovo/kuntao/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
-    vendor/lenovo/kuntao/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
-    vendor/lenovo/kuntao/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
-    vendor/lenovo/kuntao/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libvalAuth.so:system/vendor/lib/libvalAuth.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libvcsfp.so:system/vendor/lib/libvcsfp.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libvfmClient.so:system/vendor/lib/libvfmClient.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libvfmtztransport.so:system/vendor/lib/libvfmtztransport.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/audio.primary.msm8953.so:system/vendor/lib64/hw/audio.primary.msm8953.so \
-    vendor/lenovo/kuntao/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
-    vendor/lenovo/kuntao/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libTAS2555ftc.so:system/lib64/libTAS2555ftc.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libsynaFpTestHal.so:system/lib64/libsynaFpTestHal.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/fingerprint.default.so:system/vendor/lib64/hw/fingerprint.default.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/nfc_nci.bcm2079x.default.so:system/vendor/lib64/hw/nfc_nci.bcm2079x.default.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libsynaFpTestHal.so:system/vendor/lib64/libsynaFpTestHal.so \
     vendor/lenovo/kuntao/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvalAuth.so:system/lib64/libvalAuth.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvcsfp.so:system/lib64/libvcsfp.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvfmAuth.so:system/lib64/libvfmAuth.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvfmClient.so:system/lib64/libvfmClient.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvfmtztransport.so:system/lib64/libvfmtztransport.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libvalAuth.so:system/vendor/lib64/libvalAuth.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libvcsfp.so:system/vendor/lib64/libvcsfp.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libvfmAuth.so:system/vendor/lib64/libvfmAuth.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libvfmClient.so:system/vendor/lib64/libvfmClient.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libvfmtztransport.so:system/vendor/lib64/libvfmtztransport.so \
     vendor/lenovo/kuntao/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/lenovo/kuntao/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/lenovo/kuntao/proprietary/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd \
@@ -373,13 +337,13 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal
 
 PRODUCT_COPY_FILES += \
-    vendor/lenovo/kuntao/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/lenovo/kuntao/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/lenovo/kuntao/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/lenovo/kuntao/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/lenovo/kuntao/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
-    vendor/lenovo/kuntao/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/lenovo/kuntao/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/lenovo/kuntao/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/lenovo/kuntao/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
@@ -391,21 +355,20 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/lenovo/kuntao/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/lenovo/kuntao/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/lenovo/kuntao/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
-    vendor/lenovo/kuntao/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/lenovo/kuntao/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lenovo/kuntao/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/lenovo/kuntao/proprietary/etc/firmware/tas2555_uCDSP.bin:system/etc/firmware/tas2555_uCDSP.bin \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/nvm_tlv.bin:system/vendor/etc/firmware/nvm_tlv.bin \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/nvm_tlv_1.3.bin:system/vendor/etc/firmware/nvm_tlv_1.3.bin \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/nvm_tlv_2.1.bin:system/vendor/etc/firmware/nvm_tlv_2.1.bin \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/nvm_tlv_3.0.bin:system/vendor/etc/firmware/nvm_tlv_3.0.bin \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/nvm_tlv_3.2.bin:system/vendor/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/rampatch_tlv.img:system/vendor/etc/firmware/rampatch_tlv.img \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/rampatch_tlv_1.3.tlv:system/vendor/etc/firmware/rampatch_tlv_1.3.tlv \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/rampatch_tlv_2.1.tlv:system/vendor/etc/firmware/rampatch_tlv_2.1.tlv \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/rampatch_tlv_3.0.tlv:system/vendor/etc/firmware/rampatch_tlv_3.0.tlv \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/rampatch_tlv_3.2.tlv:system/vendor/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/lenovo/kuntao/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
@@ -416,30 +379,30 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/lenovo/kuntao/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
-    vendor/lenovo/kuntao/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
+    vendor/lenovo/kuntao/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/lenovo/kuntao/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/lenovo/kuntao/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lenovo/kuntao/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/lenovo/kuntao/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lenovo/kuntao/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/lenovo/kuntao/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/lenovo/kuntao/proprietary/lib/hw/sensors.msm8953.so:system/lib/hw/sensors.msm8953.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/hw/sensors.msm8953.so:system/vendor/lib/hw/sensors.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/lenovo/kuntao/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/lenovo/kuntao/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/lenovo/kuntao/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
-    vendor/lenovo/kuntao/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
     vendor/lenovo/kuntao/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/lenovo/kuntao/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/lenovo/kuntao/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/lenovo/kuntao/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/lenovo/kuntao/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/lenovo/kuntao/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
-    vendor/lenovo/kuntao/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib/libstagefright_soft_flacdec.so:system/vendor/lib/libstagefright_soft_flacdec.so \
+    vendor/lenovo/kuntao/proprietary/vendor/ib/libvpplibrary.so:system/vendor/ib/libvpplibrary.so \
     vendor/lenovo/kuntao/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/lenovo/kuntao/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/lenovo/kuntao/proprietary/lib64/hw/sensors.msm8953.so:system/lib64/hw/sensors.msm8953.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/sensors.msm8953.so:system/vendor/lib64/hw/sensors.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/lenovo/kuntao/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
@@ -452,8 +415,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/lenovo/kuntao/proprietary/lib64/libqsap_sdk.so:system/lib64/libqsap_sdk.so \
     vendor/lenovo/kuntao/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
-    vendor/lenovo/kuntao/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libstagefright_soft_flacdec.so:system/vendor/lib64/libstagefright_soft_flacdec.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libvpplibrary.so:system/vendor/lib64/libvpplibrary.so \
     vendor/lenovo/kuntao/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/lenovo/kuntao/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/lenovo/kuntao/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
