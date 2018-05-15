@@ -141,7 +141,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
     vendor/lenovo/kuntao/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/audio.primary.msm8953.so:system/vendor/lib64/hw/audio.primary.msm8953.so \
-    vendor/lenovo/kuntao/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+    vendor/lenovo/kuntao/proprietary/lib64/hw/fingerprint.vendor.msm8953.so:system/lib64/hw/fingerprint.vendor.msm8953.so \
     vendor/lenovo/kuntao/proprietary/lib64/hw/nfc_nci.bcm2079x.default.so:system/lib64/hw/nfc_nci.bcm2079x.default.so \
     vendor/lenovo/kuntao/proprietary/lib64/libTAS2555ftc.so:system/lib64/libTAS2555ftc.so \
     vendor/lenovo/kuntao/proprietary/lib64/libsynaFpTestHal.so:system/lib64/libsynaFpTestHal.so \
