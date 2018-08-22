@@ -60,15 +60,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/tas2555_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tas2555_uCDSP.bin \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat \
     vendor/lenovo/kuntao/proprietary/vendor/etc/libnfc-brcm-20797b00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm-20797b00.conf \
     vendor/lenovo/kuntao/proprietary/vendor/etc/libnfc-brcm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm.conf \
     vendor/lenovo/kuntao/proprietary/vendor/etc/nfc_wallet.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc_wallet.conf \
     vendor/lenovo/kuntao/proprietary/vendor/etc/nfcee_access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfcee_access.xml \
     vendor/lenovo/kuntao/proprietary/vendor/etc/nfcse.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/nfcse.cfg \
     vendor/lenovo/kuntao/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/wifi/fstman.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/fstman.ini \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsynaFpTestHal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpTestHal.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libvalAuth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvalAuth.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libvcsfp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcsfp.so \
@@ -319,7 +316,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/lenovo/kuntao/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/wcnss_service:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_service \
     vendor/lenovo/kuntao/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/lenovo/kuntao/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/lenovo/kuntao/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
