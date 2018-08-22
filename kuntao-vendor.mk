@@ -37,38 +37,14 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/etc/camera/lenovo_kuntao_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/lenovo_kuntao_camera.xml \
     vendor/lenovo/kuntao/proprietary/vendor/etc/camera/ov5695_kuntaoof_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5695_kuntaoof_chromatix.xml \
     vendor/lenovo/kuntao/proprietary/vendor/etc/camera/ov5695_kuntaosy_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5695_kuntaosy_chromatix.xml \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a225_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a225_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a225p5_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a300_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a300_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a330_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a330_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a420_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a420_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a506_zap.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a506_zap.b00 \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a506_zap.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a506_zap.b01 \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a506_zap.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a506_zap.b02 \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a506_zap.elf:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a506_zap.elf \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a506_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a506_zap.mdt \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_gpmu.fw2 \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530v1_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530v1_pfp.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530v1_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530v1_pm4.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530v2_seq.fw2 \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a530v3_seq.fw2 \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/a540_gpmu.fw2 \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b00 \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b01 \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.b02 \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.elf \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a506_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.mdt \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
+    vendor/lenovo/kuntao/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/emmc_ffu_15_RX14MB.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/emmc_ffu_15_RX14MB.fw \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/hbtp/hbtpcfg.dat:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/hbtp/hbtpcfg.dat \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/hbtp/qtc800s_dsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/hbtp/qtc800s_dsp.bin \
@@ -361,16 +337,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/lenovo/kuntao/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lenovo/kuntao/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv.bin \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/nvm_tlv_3.0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/rampatch_tlv.img:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv.img \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/lenovo/kuntao/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
@@ -397,7 +363,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/lenovo/kuntao/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/lenovo/kuntao/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libstagefright_soft_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacdec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/lenovo/kuntao/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/lenovo/kuntao/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
@@ -413,7 +378,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/lenovo/kuntao/proprietary/lib64/libqsap_sdk.so:system/lib64/libqsap_sdk.so \
     vendor/lenovo/kuntao/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libstagefright_soft_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_flacdec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
     vendor/lenovo/kuntao/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/lenovo/kuntao/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
@@ -486,32 +450,18 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscmservice.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/lib-sec-disp.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-sec-disp.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-uceservice.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libGPTEE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPTEE.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDecSw.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDecSw.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxMux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxMux.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Dec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libQtiTether.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQtiTether.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
@@ -549,15 +499,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libmmsw_detail_enhancement.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_detail_enhancement.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libmmsw_math.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_math.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libmmsw_opencl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_opencl.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libmmsw_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmsw_platform.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
@@ -581,28 +525,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscalar.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveCleverCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCleverCapture.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveCleverCapture_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCleverCapture_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceRecognition.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveImageCloning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveImageCloning.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveImageCorrection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveImageCorrection.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveImageRemoval.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveImageRemoval.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveMotionVector.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveMotionVector.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveObjectMatting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectMatting.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveObjectMatting_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectMatting_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama_lite.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveTextReco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveTextReco.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveTextRecoPostProcessing.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/libscveTextReco_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveTextReco_stub.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
@@ -622,15 +544,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libapps_mem_heap.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/rfsa/adsp/libexternal_dog_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libexternal_dog_skel.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp_skel.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
@@ -673,26 +586,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpsl.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-sec-disp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-sec-disp.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-uceservice.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlacSwDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libApeSwDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDRPlugin.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFlacSwDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libGPTEE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libI420colorconvert.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDecSw.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrwbplusDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libOmxApeDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDecSw.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libOmxEvrcDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxEvrcDec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libOmxMux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxMux.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Dec.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libQtiTether.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQtiTether.so \
@@ -752,16 +652,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblowi_wifihal.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-color-convertor.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libmmsw_detail_enhancement.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_detail_enhancement.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libmmsw_math.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_math.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libmmsw_opencl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_opencl.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libmmsw_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmsw_platform.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
@@ -792,28 +686,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscalar.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveCleverCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCleverCapture.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveCleverCapture_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCleverCapture_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceRecognition.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveImageCloning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveImageCloning.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveImageCorrection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveImageCorrection.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveImageRemoval.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveImageRemoval.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveMotionVector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveMotionVector.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveObjectMatting.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectMatting.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveObjectMatting_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectMatting_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker_stub.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama_lite.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveTextReco.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveTextReco.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveTextRecoPostProcessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveTextRecoPostProcessing.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/libscveTextReco_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveTextReco_stub.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
@@ -854,8 +726,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
-    libtime_genoff \
     libloc_api_v02 \
+    libtime_genoff \
     QtiTelephonyService \
     SimSettings \
     TimeService \
