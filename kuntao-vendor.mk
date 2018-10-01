@@ -60,19 +60,17 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat \
     vendor/lenovo/kuntao/proprietary/vendor/etc/firmware/tas2555_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tas2555_uCDSP.bin \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/libnfc-brcm-20797b00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm-20797b00.conf \
     vendor/lenovo/kuntao/proprietary/vendor/etc/libnfc-brcm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm.conf \
     vendor/lenovo/kuntao/proprietary/vendor/etc/nfc_wallet.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc_wallet.conf \
     vendor/lenovo/kuntao/proprietary/vendor/etc/nfcee_access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfcee_access.xml \
     vendor/lenovo/kuntao/proprietary/vendor/etc/nfcse.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/nfcse.cfg \
-    vendor/lenovo/kuntao/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libsynaFpTestHal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpTestHal.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libvalAuth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvalAuth.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libvcsfp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcsfp.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libvfmClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvfmClient.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libvfmtztransport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvfmtztransport.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/fingerprint.vendor.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.vendor.msm8953.so \
-    vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/nfc_nci.bcm2079x.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.bcm2079x.default.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/nfc_nci.bcm2079x.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.bcm2079x.msm8953.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libsynaFpTestHal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpTestHal.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libvalAuth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvalAuth.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libvcsfp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcsfp.so \
@@ -304,8 +302,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
     vendor/lenovo/kuntao/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/lenovo/kuntao/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
     vendor/lenovo/kuntao/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
